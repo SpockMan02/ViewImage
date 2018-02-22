@@ -15,7 +15,7 @@
   <script src="options.js" />
 
   <vbox>
-    <checkbox id="viewimage-viewinnewtab" label="&viewimage.options.viewinnewtab;"  checked="true" />
+    <checkbox id="viewimage-viewinnewtab" label="View images in new tab"  checked="true" />
   </vbox>
 
 </dialog>
