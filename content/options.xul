@@ -4,11 +4,11 @@
 <?xml-stylesheet href="chrome://savemytabs/skin/options.css" type="text/css"?>
 <!DOCTYPE overlay SYSTEM "chrome://savemytabs/locale/savemytabs.dtd">
 
-<dialog title="&viewimage.options.title;"
+<dialog title="ViewImage options"
   id="viewimage_options"
   windowtype="global:viewimage"
   buttons="accept,cancel"
-  buttonlabelaccept="&viewimage.options.save;"
+  buttonlabelaccept="Save"
   xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
   onload="viewimage.options.load()"
   ondialogaccept="viewimage.options.save();">
