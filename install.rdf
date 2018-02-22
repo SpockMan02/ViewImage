@@ -16,6 +16,6 @@
     <em:maxVersion>4.0.0.*</em:maxVersion>
   </Description>
   </em:targetApplication>
-  <em:optionsURL>chrome://xulschoolhello/content/preferencesWindow.xul</em:optionsURL>
+  <em:optionsURL>chrome://viewimage/content/options.xul</em:optionsURL>
 </Description>
 </RDF>
