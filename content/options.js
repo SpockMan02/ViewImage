@@ -16,4 +16,10 @@ viewimage.options = {
 
     document.getElementById("viewimage-viewinnewtab").checked = this.branch.getBoolPref("viewinnewtab");
   }
+  
+  save: function()
+  {
+    var viewInNewTab = document.getElementById("viewimage-viewinnewtab").checked;
+    this.branch.setBoolPref("viewinnewtab", viewInNewTab);
+  }
 };
